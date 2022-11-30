@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #caja{
+            width: 200px;
+            height: 200px;
+            border: solid 1px black;
+        }
+    </style>
+</head>
+<body>
+    <h1> Eventos JS - Clase 9</h1>
+    <!-- Forma 1 - Manejador de Eventos-->
+    <button id="btn"> Haz Click</button>
+    <br><br>
+
+    <!-- Forma 2 - Propiedades del nodo -->
+    <button id="btn2"> Usando propiedades</button>
+    <br><br>
+
+    <!-- Forma 3 -  -->
+    <button onclick="jsEnHTML()"> JS en el HTML </button>
+    <br><br>
+    <!--Eventos mas utilizados-->
+    <div id="caja"></div>
+    <br><br>
+
+    <!--Eventos con el teclado-->
+    <input id="campoTexto">
+    <br><br>
+
+    <!--Eventos change-->
+    <input type="text" id="texto">
+    <br><br>
+
+    <!--Eventos submit-->
+    <form id="formulario">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre">
+        <br><br>
+
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido">
+        <br><br>
+        
+        <button>Submit</button>
+    </form>
+
+    <!--Script -->
+    <script src="eventos.js"></script>
+</body>
+</html>
